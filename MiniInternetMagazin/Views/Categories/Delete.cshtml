@@ -1,0 +1,22 @@
+﻿@model MiniInternetMagazin.Models.GroceryStoreViewModels.Category
+@{
+    ViewData["Title"] = "Delete";
+}
+<h4 class="text-info">Удалить категория по Id из таблицу</h4>
+<form method="post" action="~/Categories/Delete">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="CategoryId">CategoryId</label><br />
+                <input asp-for="CategoryId" type="number" class="form-control" placeholder="Введите Id" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="submit" class="btn btn-primary" value="Удалить" />
+            </div>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,53 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+                <form method="get" action="~/Products/SelectProducts">
+                    <select name="category" class="form-control-static">
+                        <option>
+                            Все
+                        </option>
+                        @foreach (var x in ViewBag.Categories)
+                        {
+                            <option>@x.CategoryName</option>
+                        }
+                    </select>
+                        <input type="submit" class="btn-success" value="Перейти">
+                </form>
+
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+             <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Имя продукт</th>
+                <th scope="col">Цена продукт</th>
+                <th scope="col">Категория продукт</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count > 0)
+            {
+                foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.ProductId</td>
+                        <td>@product.ProductName</td>
+                        <td>@product.Price</td>
+                        <td>@product.Category</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td class="text-center" colspan="4">Пустой</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a class="btn btn-primary" asp-area="" asp-controller="Products" asp-action="Create">Добавить продукт</a>
+    <a class="btn btn-primary" asp-area="" asp-controller="Products" asp-action="Delete">Удалить продукт</a>
+    <a class="btn btn-primary" asp-area="" asp-controller="Products" asp-action="Update">Изменить продукт</a>
+</body>
+</html>

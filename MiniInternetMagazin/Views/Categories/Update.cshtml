@@ -1,0 +1,30 @@
+﻿@model MiniInternetMagazin.Models.GroceryStoreViewModels.Category
+@{
+    ViewData["Title"] = "Update";
+}
+<h4 class="text-info">Изменить категория по Id</h4>
+<form method="post" action="~/Categories/Update">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="CategoryId">CategoryId</label><br />
+                <input asp-for="CategoryId" type="number" class="form-control" placeholder="Введите Id" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="CategoryName">CategoryName</label><br />
+                <input asp-for="CategoryName" type="text" class="form-control" placeholder="Новая имя категория" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="submit" class="btn btn-primary" value="Изменить" />
+            </div>
+        </div>
+    </div>
+</form>

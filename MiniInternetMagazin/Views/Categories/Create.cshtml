@@ -1,0 +1,22 @@
+﻿@model MiniInternetMagazin.Models.GroceryStoreViewModels.Category
+@{
+    ViewData["Title"] = "Create";
+}
+<h4 class="text-info">Добавить новая категория на таблицу</h4>
+<form method="post" action="~/Categories/Create">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="CategoryName">CategoryName</label><br />
+                <input asp-for="CategoryName" type="text" class="form-control" placeholder="Новая категория" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="submit" class="btn btn-primary" value="Добавить" />
+            </div>
+        </div>
+    </div>
+</form>

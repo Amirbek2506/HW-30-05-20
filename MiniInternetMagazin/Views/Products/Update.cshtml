@@ -1,0 +1,38 @@
+﻿@model MiniInternetMagazin.Models.GroceryStoreViewModels.Product
+@{
+    ViewData["Title"] = "Update";
+}
+<h4 class="text-info">Изменить продукт по Id</h4>
+<form method="post" action="~/Products/Update">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="ProductId">Id продукта</label><br />
+                <input asp-for="ProductId" type="number" class="form-control" placeholder="Введите Id" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="ProductName">Имя продукта</label><br />
+                <input asp-for="ProductName" type="text" class="form-control" placeholder="Новая имя продукта" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="Price">Цена продукта</label><br />
+                <input asp-for="Price" type="number" class="form-control" placeholder="" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="submit" class="btn btn-primary" value="Изменить" />
+            </div>
+        </div>
+    </div>
+</form>
