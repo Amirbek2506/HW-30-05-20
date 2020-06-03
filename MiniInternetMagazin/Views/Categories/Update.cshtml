@@ -2,6 +2,15 @@
 @{
     ViewData["Title"] = "Update";
 }
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a asp-area="" asp-controller="Products" asp-action="SelectProducts" class="navbar-brand">Продукты</a>
+            <a asp-area="" asp-controller="Categories" asp-action="SelectCategory" class="navbar-brand">Категории</a>
+            <a asp-area="" asp-controller="Products" asp-action="Basket" class="navbar-brand">Корзина</a>
+        </div>
+    </div>
+</nav>
 <h4 class="text-info">Изменить категория по Id</h4>
 <form method="post" action="~/Categories/Update">
     <div class="row">

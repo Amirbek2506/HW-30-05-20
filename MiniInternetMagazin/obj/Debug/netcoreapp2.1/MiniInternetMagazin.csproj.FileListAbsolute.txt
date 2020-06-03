@@ -70,3 +70,47 @@ C:\Users\HP\Downloads\HW-26-05-20-master\MiniInternetMagazin\obj\Debug\netcoreap
 C:\Users\HP\Downloads\HW-26-05-20-master\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.dll
 C:\Users\HP\Downloads\HW-26-05-20-master\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.pdb
 C:\Users\HP\Downloads\HW-26-05-20-master\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.csproj.CopyComplete
+D:\projects\Новая папка (2)\MiniInternetMagazin\bin\Debug\netcoreapp2.1\MiniInternetMagazin.deps.json
+D:\projects\Новая папка (2)\MiniInternetMagazin\bin\Debug\netcoreapp2.1\MiniInternetMagazin.runtimeconfig.json
+D:\projects\Новая папка (2)\MiniInternetMagazin\bin\Debug\netcoreapp2.1\MiniInternetMagazin.runtimeconfig.dev.json
+D:\projects\Новая папка (2)\MiniInternetMagazin\bin\Debug\netcoreapp2.1\MiniInternetMagazin.dll
+D:\projects\Новая папка (2)\MiniInternetMagazin\bin\Debug\netcoreapp2.1\MiniInternetMagazin.pdb
+D:\projects\Новая папка (2)\MiniInternetMagazin\bin\Debug\netcoreapp2.1\MiniInternetMagazin.Views.dll
+D:\projects\Новая папка (2)\MiniInternetMagazin\bin\Debug\netcoreapp2.1\MiniInternetMagazin.Views.pdb
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.csprojAssemblyReference.cache
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.csproj.CoreCompileInputs.cache
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.RazorAssemblyInfo.cache
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.RazorAssemblyInfo.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.AssemblyInfoInputs.cache
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.AssemblyInfo.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.TagHelpers.input.cache
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.TagHelpers.output.cache
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.RazorCoreGenerate.cache
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Categories\Create.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Categories\Delete.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Categories\SelectCategory.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Categories\Update.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Products\Create.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Products\Delete.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Products\SelectProducts.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Products\Update.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.RazorTargetAssemblyInfo.cache
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.RazorTargetAssemblyInfo.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.Views.pdb
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.dll
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.pdb
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\MiniInternetMagazin.csproj.CopyComplete
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Products\AddToBasket.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Products\Basket.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Products\SelectProductsCustomer.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Users\Customer.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Users\Index.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Users\Admin.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Users\Registration.g.cshtml.cs
+D:\projects\Новая папка (2)\MiniInternetMagazin\obj\Debug\netcoreapp2.1\Razor\Views\Products\Ok.g.cshtml.cs

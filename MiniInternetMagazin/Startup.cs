@@ -26,7 +26,7 @@ namespace MiniInternetMagazin
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>(opt => 
+            services.AddDbContext<DataContext>(opt =>
             {
                 opt.UseSqlite(Configuration.GetConnectionString("DbGroceryStore"));
             });
@@ -54,7 +54,7 @@ namespace MiniInternetMagazin
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
@@ -62,7 +62,7 @@ namespace MiniInternetMagazin
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Products}/{action=SelectProducts}/{Id?}");
+                    template: "{controller=Users}/{action=Index}");
             });
         }
     }

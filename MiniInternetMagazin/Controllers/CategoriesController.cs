@@ -11,12 +11,15 @@ namespace MiniInternetMagazin.Controllers
 {
     public class CategoriesController : Controller
     {
+        DataContext _context { get; }
+        public CategoriesController(DataContext context)
+        {
+            _context = context;
+        }
+        [HttpGet]
         public IActionResult SelectCategory()
         {
-            using (var context = new DataContext())
-            {
-                return View(context.Categories.ToList<Category>());
-            }
+            return View(_context.Categories.ToList<Category>());
         }
         public ActionResult Create()
         {
@@ -28,14 +31,11 @@ namespace MiniInternetMagazin.Controllers
         {
             try
             {
-                using (var context = new DataContext())
-                {
-                    context.Categories.Add(category);
-                   if(context.SaveChanges()>0)
+                _context.Categories.Add(category);
+                if (_context.SaveChanges() > 0)
                     return RedirectToAction("SelectCategory");
-                }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return View($"{ex.Message}");
             }
@@ -51,18 +51,15 @@ namespace MiniInternetMagazin.Controllers
         {
             try
             {
-                using (var context = new DataContext())
+                var Categ = _context.Categories.FirstOrDefault<Category>(p => p.CategoryId == categoryId);
+                if (Categ != null)
                 {
-                    var Categ = context.Categories.FirstOrDefault<Category>(p => p.CategoryId == categoryId);
-                    if(Categ!=null)
-                    {
-                        context.Categories.Remove(Categ);
-                    }
-                    if (context.SaveChanges()>0)
-                        return RedirectToAction("SelectCategory");
+                    _context.Categories.Remove(Categ);
                 }
+                if (_context.SaveChanges() > 0)
+                    return RedirectToAction("SelectCategory");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return View($"{ex.Message}");
             }
@@ -78,17 +75,14 @@ namespace MiniInternetMagazin.Controllers
         {
             try
             {
-                using (var context = new DataContext())
-                { 
-                    Category Categ = context.Categories.FirstOrDefault<Category>(p => p.CategoryId == category.CategoryId);
-                    if(Categ!=null)
-                    {
-                        Categ.CategoryName = category.CategoryName;
-                        context.Categories.Update(Categ);
-                    }
-                    if (context.SaveChanges() > 0)
-                        return RedirectToAction("SelectCategory");
+                Category Categ = _context.Categories.FirstOrDefault<Category>(p => p.CategoryId == category.CategoryId);
+                if (Categ != null)
+                {
+                    Categ.CategoryName = category.CategoryName;
+                    _context.Categories.Update(Categ);
                 }
+                if (_context.SaveChanges() > 0)
+                    return RedirectToAction("SelectCategory");
             }
             catch (Exception ex)
             {

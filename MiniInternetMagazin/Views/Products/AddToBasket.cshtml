@@ -1,0 +1,38 @@
+﻿@model MiniInternetMagazin.Models.GroceryStoreViewModels.Basket
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a asp-area="" asp-controller="Products" asp-action="SelectProductsCustomer" class="navbar-brand">Продукты</a>
+            <a asp-area="" asp-controller="Users" asp-action="Index" class="navbar-brand">Выход</a>
+        </div>
+    </div>
+</nav>
+<form asp-action="AddToBasket" asp-controller="Products" asp-antiforgery="true">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="container">
+        <input type="hidden" name="id" value="@ViewBag.Id" />
+        <div>
+            <label asp-for="AdressDelivery">Адрес доставки</label>
+            <input type="text" asp-for="AdressDelivery" required class="form-control" />
+            <span asp-validation-for="AdressDelivery"></span>
+        </div>
+        <div>
+            <label asp-for="NumbersPhone">Ваш номер телефона</label>
+            <input type="number" asp-for="NumbersPhone" required class="form-control" />
+            <span asp-validation-for="NumbersPhone"></span>
+        </div>
+        <div>
+            <label asp-for="TimeDeliver">За сколько минут вам доставить</label>
+            <input type="number" asp-for="TimeDeliver" required class="form-control" />
+            <span asp-validation-for="TimeDeliver"></span>
+        </div>
+        <div>
+            <label asp-for="Quantity">Количество</label>
+            <input type="number" asp-for="Quantity" required class="form-control" />
+            <span asp-validation-for="Quantity"></span>
+        </div>
+        <div>
+            <input type="submit" value="Добавить в корзину" class="btn" />
+        </div>
+    </div>
+</form>

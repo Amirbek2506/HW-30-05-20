@@ -1,0 +1,37 @@
+﻿@model MiniInternetMagazin.Models.GroceryStoreViewModels.User
+@{
+    ViewData["Title"] = "Registration";
+}
+<form method="post" action="~/Users/AddCustomer">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a asp-area="" asp-controller="Users" asp-action="Registration" class="navbar-brand">Регистрация</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="Login">Логин</label><br />
+                <input asp-for="Login" type="number" class="form-control" placeholder="Введите логин" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <label for="Password">Пароль</label><br />
+                <input asp-for="Password" type="text" class="form-control" placeholder="Введите пароль" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="submit" class="btn btn-primary" value="Сохранить" />
+                <a class="btn btn-default" asp-controller="Users" asp-action="Index">Отмена</a>
+            </div>
+        </div>
+    </div>
+</form>
